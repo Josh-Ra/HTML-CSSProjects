@@ -1,4 +1,4 @@
-body{
+.htmlbody{
     background-image: url("images/Screenshot\ \(9\).png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -219,6 +219,11 @@ body{
     width: 100%;
 
 }
+.pythonproject .pythonimage:hover{
+    transform: scale(1.1,1.1);
+
+}
+
 
 .htmlproject{
     width: 15%;
@@ -243,6 +248,10 @@ body{
     width: 100%;
 
 }
+.htmlproject .htmlimage:hover{
+    transform: scale(1.1,1.1);
+
+}
 
 .sqlproject{
     width: 15%;
@@ -264,6 +273,11 @@ body{
 .sqlproject .sqlimage{
     width: 100%;
 }
+
+.sqlproject .sqlimage:hover{
+    transform: scale(1.1,1.1);
+}
+
 
 
 
