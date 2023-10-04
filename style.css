@@ -7,6 +7,14 @@
     overflow: hidden;
     
 }
+.colorchange{
+    background-image: linear-gradient(black, gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
 
 .header h1{
     text-align: center;
@@ -306,6 +314,15 @@
     transform: scale(1.1,1.1);
 }
 
+.js{
+    position: absolute;
+    left: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgba(173, 165, 165, 0.158);
+    border-radius: 10px;
+    transform: scale(1.5,1.5);
+}
 
 
 
